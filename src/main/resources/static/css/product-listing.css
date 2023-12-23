@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: serif;
+    background-color: azure;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  #lblCartCount {
+      font-size: 12px;
+      background: #ff0000;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
+
+.container{
+    margin:75px;
+    padding:10px;
+}
+
+.mens-heading{
+    position: relative;
+    bottom: 115px;
+}
+
+.cart-icon{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 1174px;
+    bottom: 32px;
+    display: inline-block;
+    cursor:pointer;
+}
+
+.red{
+    color: red;
+}
+
+.product-card{
+    padding: 0px;
+    width: 240px;
+    height: 264px;
+    box-shadow: 6px 6px 20px 0 darkgrey;
+    margin: 43px;
+    display: inline-block;
+}
+
+.info-sec{
+    position: relative;
+    bottom: 40px;
+    left: 45px 
+}
+
+.img-size{
+    width: 240px;
+    height: 264px;
+}
+
+.price-sec{
+    display: inline-block;
+}
+
+.card-block {
+    position: relative;
+    display: inline-block;
+    bottom: 80px;
+  }
+
+.buy{
+    position: relative;
+    bottom: 22px;
+}
+
+.buy-url{
+    position: relative;
+    left: 70px;
+    color: grey;
+    font-size: small;
+    cursor:pointer;
+}
